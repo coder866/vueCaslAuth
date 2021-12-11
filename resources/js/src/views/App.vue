@@ -1,15 +1,13 @@
 <template>
-    <div>
-        <h1>CASL MANENOZ</h1>
-        <transition type="animation">
-            <router-view/>
+    <router-view v-slot="{ Component }">
+        <transition>
+            <component :is="Component" />
         </transition>
-    </div>
+    </router-view>
 </template>
 <script>
 export default {}
 </script>
 
 <style scoped>
-
 </style>

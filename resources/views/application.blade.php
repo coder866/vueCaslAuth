@@ -10,9 +10,10 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+        <link rel="stylesheet" href="{{mix('css/app.css')}}">
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        <div class="bg-white-100 w-full px-1">
             <div id="app"></div>
         </div>
         <script type="text/javascript" src="{{mix('js/app.js')}}"></script>
